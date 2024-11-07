@@ -1,5 +1,5 @@
-function hello(name) {
+function hello(name: string): void {
     console.log("Hello " + name + "!");
 }
-var your_name = "Hogeta";
+let your_name: string = "Hogeta";
 hello(your_name); // Hello Hogeta!
