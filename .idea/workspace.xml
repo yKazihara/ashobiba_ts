@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="275ae5e3-8bb1-4ac2-879e-492e15618df5" name="変更" comment="とりあえずまずはjsファイルをコミットしてみる。">
-      <change afterPath="$PROJECT_DIR$/hello.ts" afterDir="false" />
+    <list default="true" id="275ae5e3-8bb1-4ac2-879e-492e15618df5" name="変更" comment="最初のtsファイルをコミット。Helloしてみた。">
+      <change afterPath="$PROJECT_DIR$/Generics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.Generics.js.executor": "Run",
+    "Node.js.User.js.executor": "Run",
     "Node.js.greeter.js.executor": "Run",
     "Node.js.hello.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -58,7 +60,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.hello.js">
+  <component name="RunManager" selected="Node.js.Generics.js">
+    <configuration name="Generics.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Generics.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="User.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/User.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="greeter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/greeter.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -67,6 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Generics.js" />
+        <item itemvalue="Node.js.User.js" />
         <item itemvalue="Node.js.greeter.js" />
       </list>
     </recent_temporary>
@@ -80,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1730893082621</updated>
       <workItem from="1730893083740" duration="865000" />
-      <workItem from="1730983558692" duration="780000" />
+      <workItem from="1730983558692" duration="885000" />
+      <workItem from="1731070652071" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずまずはjsファイルをコミットしてみる。">
       <option name="closed" value="true" />
@@ -90,14 +101,29 @@
       <option name="project" value="LOCAL" />
       <updated>1730894011006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="最初のtsファイルをコミット。Helloしてみた。">
+      <option name="closed" value="true" />
+      <created>1730984727190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730984727190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/User.js" />
+        <option value="$PROJECT_DIR$/Generics.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="とりあえずまずはjsファイルをコミットしてみる。" />
-    <option name="LAST_COMMIT_MESSAGE" value="とりあえずまずはjsファイルをコミットしてみる。" />
+    <MESSAGE value="最初のtsファイルをコミット。Helloしてみた。" />
+    <option name="LAST_COMMIT_MESSAGE" value="最初のtsファイルをコミット。Helloしてみた。" />
   </component>
 </project>
