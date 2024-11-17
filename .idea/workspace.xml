@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="275ae5e3-8bb1-4ac2-879e-492e15618df5" name="変更" comment="へぇ、型書けるんだ。ジェネリクスもいけるんだ。">
-      <change afterPath="$PROJECT_DIR$/increment.ts" afterDir="false" />
+    <list default="true" id="275ae5e3-8bb1-4ac2-879e-492e15618df5" name="変更" comment="increment関数をつくってみた。">
+      <change afterPath="$PROJECT_DIR$/equality.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/generics01.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
   "keyToString": {
     "Node.js.Generics.js.executor": "Run",
     "Node.js.User.js.executor": "Run",
+    "Node.js.equality.js.executor": "Run",
     "Node.js.greeter.js.executor": "Run",
     "Node.js.hello.js.executor": "Run",
     "Node.js.increment.js.executor": "Run",
@@ -61,8 +61,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.increment.js">
+  <component name="RunManager" selected="Node.js.equality.js">
     <configuration name="User.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/User.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="equality.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/equality.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="generics01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/generics01.js" working-dir="$PROJECT_DIR$">
@@ -79,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.equality.js" />
         <item itemvalue="Node.js.increment.js" />
         <item itemvalue="Node.js.generics01.js" />
         <item itemvalue="Node.js.User.js" />
@@ -97,7 +101,8 @@
       <workItem from="1730893083740" duration="865000" />
       <workItem from="1730983558692" duration="885000" />
       <workItem from="1731070652071" duration="772000" />
-      <workItem from="1731157552125" duration="416000" />
+      <workItem from="1731157552125" duration="541000" />
+      <workItem from="1731846781147" duration="993000" />
     </task>
     <task id="LOCAL-00001" summary="とりあえずまずはjsファイルをコミットしてみる。">
       <option name="closed" value="true" />
@@ -123,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731071387332</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="increment関数をつくってみた。">
+      <option name="closed" value="true" />
+      <created>1731158335634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731158335634</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +145,7 @@
       <list>
         <option value="$PROJECT_DIR$/User.js" />
         <option value="$PROJECT_DIR$/increment.js" />
+        <option value="$PROJECT_DIR$/equality.js" />
       </list>
     </option>
   </component>
@@ -139,6 +153,7 @@
     <MESSAGE value="とりあえずまずはjsファイルをコミットしてみる。" />
     <MESSAGE value="最初のtsファイルをコミット。Helloしてみた。" />
     <MESSAGE value="へぇ、型書けるんだ。ジェネリクスもいけるんだ。" />
-    <option name="LAST_COMMIT_MESSAGE" value="へぇ、型書けるんだ。ジェネリクスもいけるんだ。" />
+    <MESSAGE value="increment関数をつくってみた。" />
+    <option name="LAST_COMMIT_MESSAGE" value="increment関数をつくってみた。" />
   </component>
 </project>
