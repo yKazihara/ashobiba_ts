@@ -37,3 +37,4 @@ const list: IdDisplay[] = [
 
 const fooIndex = list.map(i => i.id).indexOf('foo');
 console.log(fooIndex); // 0
+console.log(list[fooIndex].display); // Foo Select
